@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-HotSearch/Pods-HotSearch-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Toast/Toast.framework
+${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework
+${BUILT_PRODUCTS_DIR}/fluttertoast/fluttertoast.framework

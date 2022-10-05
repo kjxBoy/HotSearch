@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97FB5FA6D2F20953FF22276 /* Pods_HotSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9766E286B8C811F23E861EF /* Pods_HotSearch.framework */; };
+		B42A3EB228E9D4B000D327E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EB128E9D4B000D327E2 /* AppDelegate.swift */; };
+		B42A3EB628E9D4B000D327E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EB528E9D4B000D327E2 /* ViewController.swift */; };
+		B42A3EB928E9D4B000D327E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42A3EB728E9D4B000D327E2 /* Main.storyboard */; };
+		B42A3EBB28E9D4B100D327E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42A3EBA28E9D4B100D327E2 /* Assets.xcassets */; };
+		B42A3EBE28E9D4B100D327E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42A3EBC28E9D4B100D327E2 /* LaunchScreen.storyboard */; };
+		B42A3EC928E9D4B100D327E2 /* HotSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EC828E9D4B100D327E2 /* HotSearchTests.swift */; };
+		B42A3ED328E9D4B100D327E2 /* HotSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3ED228E9D4B100D327E2 /* HotSearchUITests.swift */; };
+		B42A3ED528E9D4B100D327E2 /* HotSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3ED428E9D4B100D327E2 /* HotSearchUITestsLaunchTests.swift */; };
+		B42A3EE228EAC5BC00D327E2 /* CellReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EE128EAC5BC00D327E2 /* CellReusable.swift */; };
+		B42A3EE528EACC1E00D327E2 /* BoostDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EE428EACC1E00D327E2 /* BoostDelegate.swift */; };
+		B42A3EE728EAE61500D327E2 /* UIViewController+navigationBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EE628EAE61500D327E2 /* UIViewController+navigationBarHidden.swift */; };
+		B42A3EE928EAE9F900D327E2 /* JXFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A3EE828EAE9F900D327E2 /* JXFlutterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B42A3EC528E9D4B100D327E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42A3EA628E9D4B000D327E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42A3EAD28E9D4B000D327E2;
+			remoteInfo = HotSearch;
+		};
+		B42A3ECF28E9D4B100D327E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42A3EA628E9D4B000D327E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42A3EAD28E9D4B000D327E2;
+			remoteInfo = HotSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B3C8FB6D99E37FB3369CE5F /* Pods-HotSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotSearch.debug.xcconfig"; path = "Target Support Files/Pods-HotSearch/Pods-HotSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		B42A3EAE28E9D4B000D327E2 /* HotSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A3EB128E9D4B000D327E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B42A3EB528E9D4B000D327E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B42A3EB828E9D4B000D327E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B42A3EBA28E9D4B100D327E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B42A3EBD28E9D4B100D327E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B42A3EBF28E9D4B100D327E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42A3EC428E9D4B100D327E2 /* HotSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A3EC828E9D4B100D327E2 /* HotSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSearchTests.swift; sourceTree = "<group>"; };
+		B42A3ECE28E9D4B100D327E2 /* HotSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A3ED228E9D4B100D327E2 /* HotSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSearchUITests.swift; sourceTree = "<group>"; };
+		B42A3ED428E9D4B100D327E2 /* HotSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B42A3EE128EAC5BC00D327E2 /* CellReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellReusable.swift; sourceTree = "<group>"; };
+		B42A3EE428EACC1E00D327E2 /* BoostDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostDelegate.swift; sourceTree = "<group>"; };
+		B42A3EE628EAE61500D327E2 /* UIViewController+navigationBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+navigationBarHidden.swift"; sourceTree = "<group>"; };
+		B42A3EE828EAE9F900D327E2 /* JXFlutterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXFlutterViewController.swift; sourceTree = "<group>"; };
+		C9766E286B8C811F23E861EF /* Pods_HotSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52894A41D868AF29333E409 /* Pods-HotSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotSearch.release.xcconfig"; path = "Target Support Files/Pods-HotSearch/Pods-HotSearch.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42A3EAB28E9D4B000D327E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FB5FA6D2F20953FF22276 /* Pods_HotSearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A3EC128E9D4B100D327E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A3ECB28E9D4B100D327E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B42A3EA528E9D4B000D327E2 = {
+			isa = PBXGroup;
+			children = (
+				B42A3EB028E9D4B000D327E2 /* HotSearch */,
+				B42A3EC728E9D4B100D327E2 /* HotSearchTests */,
+				B42A3ED128E9D4B100D327E2 /* HotSearchUITests */,
+				B42A3EAF28E9D4B000D327E2 /* Products */,
+				D1420B78920FF1A12B5CCF09 /* Pods */,
+				D2FDC28D6874C98A6B545E9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B42A3EAF28E9D4B000D327E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42A3EAE28E9D4B000D327E2 /* HotSearch.app */,
+				B42A3EC428E9D4B100D327E2 /* HotSearchTests.xctest */,
+				B42A3ECE28E9D4B100D327E2 /* HotSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42A3EB028E9D4B000D327E2 /* HotSearch */ = {
+			isa = PBXGroup;
+			children = (
+				B42A3EE328EACBFD00D327E2 /* Flutter */,
+				B42A3EB128E9D4B000D327E2 /* AppDelegate.swift */,
+				B42A3EB528E9D4B000D327E2 /* ViewController.swift */,
+				B42A3EE628EAE61500D327E2 /* UIViewController+navigationBarHidden.swift */,
+				B42A3EE128EAC5BC00D327E2 /* CellReusable.swift */,
+				B42A3EB728E9D4B000D327E2 /* Main.storyboard */,
+				B42A3EBA28E9D4B100D327E2 /* Assets.xcassets */,
+				B42A3EBC28E9D4B100D327E2 /* LaunchScreen.storyboard */,
+				B42A3EBF28E9D4B100D327E2 /* Info.plist */,
+			);
+			path = HotSearch;
+			sourceTree = "<group>";
+		};
+		B42A3EC728E9D4B100D327E2 /* HotSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B42A3EC828E9D4B100D327E2 /* HotSearchTests.swift */,
+			);
+			path = HotSearchTests;
+			sourceTree = "<group>";
+		};
+		B42A3ED128E9D4B100D327E2 /* HotSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B42A3ED228E9D4B100D327E2 /* HotSearchUITests.swift */,
+				B42A3ED428E9D4B100D327E2 /* HotSearchUITestsLaunchTests.swift */,
+			);
+			path = HotSearchUITests;
+			sourceTree = "<group>";
+		};
+		B42A3EE328EACBFD00D327E2 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				B42A3EE428EACC1E00D327E2 /* BoostDelegate.swift */,
+				B42A3EE828EAE9F900D327E2 /* JXFlutterViewController.swift */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		D1420B78920FF1A12B5CCF09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C8FB6D99E37FB3369CE5F /* Pods-HotSearch.debug.xcconfig */,
+				D52894A41D868AF29333E409 /* Pods-HotSearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2FDC28D6874C98A6B545E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9766E286B8C811F23E861EF /* Pods_HotSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42A3EAD28E9D4B000D327E2 /* HotSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A3ED828E9D4B100D327E2 /* Build configuration list for PBXNativeTarget "HotSearch" */;
+			buildPhases = (
+				F8F0C7FEF85867C2C46BBD75 /* [CP] Check Pods Manifest.lock */,
+				2928F40F361D26DA5742219D /* [CP-User] Run Flutter Build flutter_module Script */,
+				B42A3EAA28E9D4B000D327E2 /* Sources */,
+				B42A3EAB28E9D4B000D327E2 /* Frameworks */,
+				B42A3EAC28E9D4B000D327E2 /* Resources */,
+				9BBC8E78791FD4860C629305 /* [CP] Embed Pods Frameworks */,
+				D45C26369D740C4BD1C0B478 /* [CP-User] Embed Flutter Build flutter_module Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotSearch;
+			productName = HotSearch;
+			productReference = B42A3EAE28E9D4B000D327E2 /* HotSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B42A3EC328E9D4B100D327E2 /* HotSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A3EDB28E9D4B100D327E2 /* Build configuration list for PBXNativeTarget "HotSearchTests" */;
+			buildPhases = (
+				B42A3EC028E9D4B100D327E2 /* Sources */,
+				B42A3EC128E9D4B100D327E2 /* Frameworks */,
+				B42A3EC228E9D4B100D327E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42A3EC628E9D4B100D327E2 /* PBXTargetDependency */,
+			);
+			name = HotSearchTests;
+			productName = HotSearchTests;
+			productReference = B42A3EC428E9D4B100D327E2 /* HotSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B42A3ECD28E9D4B100D327E2 /* HotSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A3EDE28E9D4B100D327E2 /* Build configuration list for PBXNativeTarget "HotSearchUITests" */;
+			buildPhases = (
+				B42A3ECA28E9D4B100D327E2 /* Sources */,
+				B42A3ECB28E9D4B100D327E2 /* Frameworks */,
+				B42A3ECC28E9D4B100D327E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42A3ED028E9D4B100D327E2 /* PBXTargetDependency */,
+			);
+			name = HotSearchUITests;
+			productName = HotSearchUITests;
+			productReference = B42A3ECE28E9D4B100D327E2 /* HotSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42A3EA628E9D4B000D327E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B42A3EAD28E9D4B000D327E2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B42A3EC328E9D4B100D327E2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B42A3EAD28E9D4B000D327E2;
+					};
+					B42A3ECD28E9D4B100D327E2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B42A3EAD28E9D4B000D327E2;
+					};
+				};
+			};
+			buildConfigurationList = B42A3EA928E9D4B000D327E2 /* Build configuration list for PBXProject "HotSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42A3EA528E9D4B000D327E2;
+			productRefGroup = B42A3EAF28E9D4B000D327E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42A3EAD28E9D4B000D327E2 /* HotSearch */,
+				B42A3EC328E9D4B100D327E2 /* HotSearchTests */,
+				B42A3ECD28E9D4B100D327E2 /* HotSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42A3EAC28E9D4B000D327E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A3EBE28E9D4B100D327E2 /* LaunchScreen.storyboard in Resources */,
+				B42A3EBB28E9D4B100D327E2 /* Assets.xcassets in Resources */,
+				B42A3EB928E9D4B000D327E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A3EC228E9D4B100D327E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A3ECC28E9D4B100D327E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2928F40F361D26DA5742219D /* [CP-User] Run Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		9BBC8E78791FD4860C629305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HotSearch/Pods-HotSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HotSearch/Pods-HotSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HotSearch/Pods-HotSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D45C26369D740C4BD1C0B478 /* [CP-User] Embed Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		F8F0C7FEF85867C2C46BBD75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42A3EAA28E9D4B000D327E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A3EE528EACC1E00D327E2 /* BoostDelegate.swift in Sources */,
+				B42A3EE928EAE9F900D327E2 /* JXFlutterViewController.swift in Sources */,
+				B42A3EE728EAE61500D327E2 /* UIViewController+navigationBarHidden.swift in Sources */,
+				B42A3EE228EAC5BC00D327E2 /* CellReusable.swift in Sources */,
+				B42A3EB628E9D4B000D327E2 /* ViewController.swift in Sources */,
+				B42A3EB228E9D4B000D327E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A3EC028E9D4B100D327E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A3EC928E9D4B100D327E2 /* HotSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A3ECA28E9D4B100D327E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A3ED528E9D4B100D327E2 /* HotSearchUITestsLaunchTests.swift in Sources */,
+				B42A3ED328E9D4B100D327E2 /* HotSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B42A3EC628E9D4B100D327E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42A3EAD28E9D4B000D327E2 /* HotSearch */;
+			targetProxy = B42A3EC528E9D4B100D327E2 /* PBXContainerItemProxy */;
+		};
+		B42A3ED028E9D4B100D327E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42A3EAD28E9D4B000D327E2 /* HotSearch */;
+			targetProxy = B42A3ECF28E9D4B100D327E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B42A3EB728E9D4B000D327E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42A3EB828E9D4B000D327E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B42A3EBC28E9D4B100D327E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42A3EBD28E9D4B100D327E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42A3ED628E9D4B100D327E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42A3ED728E9D4B100D327E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42A3ED928E9D4B100D327E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3C8FB6D99E37FB3369CE5F /* Pods-HotSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderKang.HotSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B42A3EDA28E9D4B100D327E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52894A41D868AF29333E409 /* Pods-HotSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderKang.HotSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B42A3EDC28E9D4B100D327E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderKang.HotSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotSearch.app/HotSearch";
+			};
+			name = Debug;
+		};
+		B42A3EDD28E9D4B100D327E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderKang.HotSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotSearch.app/HotSearch";
+			};
+			name = Release;
+		};
+		B42A3EDF28E9D4B100D327E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderKang.HotSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotSearch;
+			};
+			name = Debug;
+		};
+		B42A3EE028E9D4B100D327E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderKang.HotSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42A3EA928E9D4B000D327E2 /* Build configuration list for PBXProject "HotSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A3ED628E9D4B100D327E2 /* Debug */,
+				B42A3ED728E9D4B100D327E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A3ED828E9D4B100D327E2 /* Build configuration list for PBXNativeTarget "HotSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A3ED928E9D4B100D327E2 /* Debug */,
+				B42A3EDA28E9D4B100D327E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A3EDB28E9D4B100D327E2 /* Build configuration list for PBXNativeTarget "HotSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A3EDC28E9D4B100D327E2 /* Debug */,
+				B42A3EDD28E9D4B100D327E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A3EDE28E9D4B100D327E2 /* Build configuration list for PBXNativeTarget "HotSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A3EDF28E9D4B100D327E2 /* Debug */,
+				B42A3EE028E9D4B100D327E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B42A3EA628E9D4B000D327E2 /* Project object */;
+}
